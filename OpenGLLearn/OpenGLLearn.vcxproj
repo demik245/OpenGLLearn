@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\damia\Desktop\dev\c++\OpenGL\OpenGLLearn\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\damia\Desktop\dev\c++\OpenGL\OpenGLLearn\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\damia\Documents\GitHub\OpenGLLearn\OpenGLLearn\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\damia\Documents\GitHub\OpenGLLearn\OpenGLLearn\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\damia\Desktop\dev\c++\OpenGL\OpenGLLearn\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\damia\Desktop\dev\c++\OpenGL\OpenGLLearn\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\damia\Documents\GitHub\OpenGLLearn\OpenGLLearn\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\damia\Documents\GitHub\OpenGLLearn\OpenGLLearn\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -141,6 +141,7 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="shaderClass.cpp" />
+    <ClCompile Include="stb.cpp" />
     <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
@@ -153,6 +154,9 @@
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="VAO.h" />
     <ClInclude Include="VBO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Pictures\pw.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
